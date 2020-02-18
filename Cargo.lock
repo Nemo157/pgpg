@@ -646,8 +646,7 @@ dependencies = [
 [[package]]
 name = "pgp"
 version = "0.4.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1b16d0ab0f228058bcd3f20a1ee0da6b443ff142988693247a08b799b6c520fb"
+source = "git+https://github.com/Nemo157/rpgp?branch=cross_signed_cert#96476589e2c250c2c04f2e406aa4184491f2574b"
 dependencies = [
  "aes",
  "base64",
